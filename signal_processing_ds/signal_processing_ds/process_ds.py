@@ -20,7 +20,7 @@ class ProcessNode(Node):
         self.current_time = 0.0
         
         # Parámetro de fase (hardcoded)
-        self.phase_shift = 0.5  # Cambia este valor según sea necesario
+        self.phase_shift = 0.5  
 
     def signal_callback(self, msg):
         # Procesar la señal
